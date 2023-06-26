@@ -1,0 +1,13 @@
+<div class="mainCard" [ngClass]="{ supplier: contact.job === 'supplier' }">
+  <div class="imgContainer">
+    <img src="{{ contact.image }}" alt="" />
+  </div>
+  <div class="infoContainer">
+    <div class="nameContainer">
+      <span
+        ><strong>{{ contact.nom }} </strong>
+      </span>
+      <span>{{ contact.prenom }} </span>
+    </div>
+  </div>
+</div>
