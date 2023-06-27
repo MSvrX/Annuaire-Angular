@@ -1,4 +1,14 @@
 .flexbox {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 3em;
+    font-family: 'Belanosima', sans-serif;
 }

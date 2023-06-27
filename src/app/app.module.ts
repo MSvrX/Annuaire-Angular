@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
 import { ListeContactComponent } from './liste-contact/liste-contact.component';
 import { DetailContactComponent } from './detail-contact/detail-contact.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DetailContactComponent } from './detail-contact/detail-contact.componen
     DetailContactComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -5,13 +5,18 @@
     background-color: #D6BA73;
     padding: 50px;
     border-radius: 5%;
-    margin: 15px;
+    margin: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #59344F;
     box-shadow: 10px 3px 4px 2px rgba(133,126,123,0.47);
+}
+
+.mainCard:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 
 .imgContainer {

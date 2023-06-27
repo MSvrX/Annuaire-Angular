@@ -1,18 +1,18 @@
-<div class="mainCard" [ngClass]="{ supplier: contact.job === 'supplier' }">
+<div class="mainCard" [ngClass]="{ supplier: tab.job === 'supplier' }">
   <div class="imgContainer">
-    <img src="{{ contact.image }}" alt="" />
+    <img src="{{ tab.image }}" alt="" />
   </div>
   <div class="infoContainer">
     <div class="nameContainer">
       <span
-        ><strong>{{ contact.nom }} </strong>
+        ><strong>{{ tab.nom }} </strong>
       </span>
-      <span>{{ contact.prenom }} </span>
+      <span>{{ tab.prenom }} </span>
     </div>
     <div id="contactDetailContainer">
-      <p>{{ contact.tel }}</p>
-      <p>{{ contact.mail }}</p>
-      <p>{{ contact.job }}</p>
+      <p>{{ tab.tel }}</p>
+      <p>{{ tab.mail }}</p>
+      <p>{{ tab.job }}</p>
     </div>
   </div>
 </div>

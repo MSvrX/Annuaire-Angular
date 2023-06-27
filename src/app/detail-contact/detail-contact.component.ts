@@ -8,11 +8,10 @@ import { contact } from 'src/services/contact.service';
   styleUrls: ['./detail-contact.component.css']
 })
 export class DetailContactComponent implements OnInit {
-  contact!:userData;
-  tab!:userData[];
+  tab!:userData;
   constructor(private listeContact : contact){}
   ngOnInit(): void {
-
+this.tab=this.listeContact.getOneContact(1);
   }
 
 

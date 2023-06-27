@@ -10,12 +10,10 @@ import { contact } from 'src/services/contact.service';
 
 
 export class ListeContactComponent implements OnInit {
-  
- tab!:userData[];
   constructor(private listeContact : contact){}
+ tab!:userData[];
 
   ngOnInit(): void {
-    let infoContact = 1;
     this.tab = this.listeContact.getContacts();
   }
 
